@@ -1,111 +1,93 @@
 import React from "react";
-import {
-  FaKey,
-  FaComments,
-  FaUserLock,
-  FaHourglassStart,
-  FaAtom,
-  FaRocket
-} from "react-icons/fa";
+
 
 import "./style.scss";
 import "./columns.scss";
 
 const Midsection = () => (
   <div>
-    <section className="section">
+    <section className="section sa" id="informacion">
+      <container>
+        <div className="columns">
+          <div className="column"></div>
+          <div className="column is-three-quarters">
+            <h2 className="title is-1 has-text-weight-bold has-text-white">
+              La importancia del Marketing Digital
+            </h2>
+            <p className="is-size-4 has-text-white">
+              Piensa en un negocio local que consideres exitoso. Puede ser una
+              tienda, un restaurante o un taller. ¿Dónde está? Si es de comida,
+              seguramente cerca de una zona de oficina o de estudiantes. Si
+              vende productos, tal vez está en el centro, donde mucha gente pasa
+              caminando, o en alguna avenida principal a la vista de miles de
+              coches.{" "}
+            </p>
+            <p className="is-size-4 has-text-white">
+              Piensa ahora en ese negocio de algún ser querido que no pegó. ¿Qué
+              tanta culpa tiene el no haber rentado un local a la vista de todos
+              para poder mostrar su gran producto?{" "}
+            </p>
+            <p className="is-size-4 has-text-white">
+              <span className="magical">
+                ¿Te gustaría que a tu producto le pasara lo mismo?
+              </span>{" "}
+              El marketing digital, cuando está bien hecho, te permite ser
+              visible en un mundo con{" "}
+              <span className="magical">millones de habitantes digitales</span>{" "}
+              que están buscando productos y servicios todo el tiempo.{" "}
+            </p>
+            <p className="is-size-4 has-text-white">
+              Querétaro es una ciudad cosmopolita. Gente nueva llega todo el
+              tiempo. Del norte, del sur, del centro. De otros países. ¿Y qué
+              hace toda esta gente cuando necesita algo en una ciudad que no
+              conoce? Recurre al internet.{" "}
+              <span className="magical">Y ahí es donde debes estar tú.</span>{" "}
+            </p>
+            <h2 className="title is-1 has-text-weight-bold has-text-white">
+              Nuestra promesa como Agencia
+            </h2>
+            <p className="is-size-4 has-text-white">
+              Llevamos ya nueve años en esto del marketing digital. Empezamos
+              con Twitter, vimos nacer y crecer las páginas de Facebook, y
+              sabemos lo mucho que importa Instagram hoy en día. Tenemos certeza
+              plena de que nada de eso importa si no tienes un buen diseño web o
+              si tu página no está optimizada para salir en los primeros
+              resultados de Google.{" "}
+              
+            </p>
 
-      <div className="container">
-        <div className="columns">
-          <div className="column shake">
-            <article className="notification one">
-              <span className="icon is-large has-text-black">
-                <FaKey />
-              </span>
-              <p className="is-size-3">ID Digital </p>
-              <p className="is-size-5">
-                Cada residente tiene una identificación digital que cambia con
-                el tiempo. Gracias a esto, el personal de seguridad puede
-                corroborar fácilmente que es residente aunque venga caminando o
-                en Uber.{" "}
-              </p>
-            </article>
+            <p className="is-size-4 has-text-white">
+              Querétaro es una ciudad cosmopolita. Gente nueva llega todo el
+              tiempo. Del norte, del sur, del centro. De otros países. ¿Y qué
+              hace toda esta gente cuando necesita algo en una ciudad que no
+              conoce? Recurre al internet.{" "}
+              <span className="magical">Y ahí es donde debes estar tú.</span>{" "}
+            </p>
+            <p className="is-size-4 has-text-white">
+              Querétaro es una ciudad cosmopolita. Gente nueva llega todo el
+              tiempo. Del norte, del sur, del centro. De otros países. ¿Y qué
+              hace toda esta gente cuando necesita algo en una ciudad que no
+              conoce? Recurre al internet.{" "}
+              <span className="magical">Y ahí es donde debes estar tú.</span>{" "}
+            </p>
+            <div className="quote-wrapper">
+              <div className="blockquote">
+                <h3>
+                  Intuitive design happens when current knowledge is the same as
+                  the target knowledge.>
+                </h3>
+                <h4>
+                  &mdash;Prosenjit SikdarWeb Site Usability: A Designer's Guide
+                </h4>
+              </div>
+            </div>
           </div>
-          <div className="column shake">
-            <article className="notification two">
-              <span className="icon is-large has-text-black">
-                <FaComments />
-              </span>
-              <p className="is-size-3">Notificaciones </p>
-              <p className="is-size-5">
-                Recibe notificaciones junto a toda tu familia para autorizar o
-                rechazar accesos a tu casa desde tu celular. También sabrás
-                cuando tus visitas, proveedores o personal de servicio se
-                retiran del Condominio.
-              </p>
-            </article>
-          </div>
-          <div className="column shake">
-            <article className="notification three">
-              <span className="icon is-large has-text-black">
-                <FaRocket />
-              </span>
-              <p className="is-size-3">Multiplataforma </p>
-              <p className="is-size-5">
-                Puedes descargar nuestra aplicación y además usar nuestro Bot
-                inteligente que te permite gestionar todos nuestros servicios
-                desde apps de mensajería como Telegram o Facebook.{" "}
-              </p>
-            </article>
-          </div>
+          <div className="column"></div>
         </div>
-      </div>
-      <div className="container">
-        <div className="columns">
-          <div className="column shake">
-            <article className="notification four">
-              <span className="icon is-large has-text-black">
-                <FaUserLock />
-              </span>
-              <p className="is-size-3">100% Privado </p>              
-              <p className="is-size-5">
-                Nuestra plataforma y conmutador digital funcionan de tal manera
-                que los guardias nunca tienen acceso a información vital que, en
-                malas manos, puede volverse un auténtico peligro.
-              </p>
-            </article>
-          </div>
-          <div className="column shake">
-            <article className="notification five">
-              <span className="icon is-large has-text-black">
-                <FaHourglassStart />
-              </span>
-              <p className="is-size-3">Eficiencia</p>
-              <p className="is-size-5">
-                Evita con nuestra app llamadas y mensajes al administrador para
-                tareas rutinarias como consultar tu saldo, pre-autorizar
-                visitas, registrar a tu personal de servicio y preguntar por tu
-                paquetería.{" "}
-              </p>
-            </article>
-          </div>
-          <div className="column shake">
-            <article className="notification six">
-              <span className="icon is-large has-text-black">
-                <FaAtom />
-              </span>
-              <p className="is-size-3">Innovación </p>
-              <p className="is-size-5">
-                Todo el tiempo estamos actualizando nuestra app para agregar
-                nuevas características que hagan todavía más seguro el
-                Condominio donde vives con tu familia.
-              </p>
-            </article>
-          </div>
-        </div>
-      </div>
+      </container>
     </section>
   </div>
 );
 
 export default Midsection;
+
