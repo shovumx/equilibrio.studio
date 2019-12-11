@@ -2,7 +2,7 @@ import React from "react";
 import "./style.scss";
 import "./banner.scss";
 import MyForm from "../components/formulario";
-import { Link } from "gatsby";
+
 
 const Banners = () => (
   <div>

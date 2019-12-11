@@ -10,7 +10,7 @@ import "../components/style.scss";
 export default () => (
   <div>
          <Helmet>
-        <title>Agencia de Marketing Digital en Querétaro | Contacto</title>
+        <title>Contacto | Agencia de Marketing Digital en Querétaro</title>
         <meta name="description" content="¿Buscas más información sobre nuestra Agencia de Marketing? No dudes en ponerte en contacto con nosotros y con gusto te resolveremos todas tus dudas."></meta>
         <meta name="robots" content="index,follow"></meta>
       </Helmet>
