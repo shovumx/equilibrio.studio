@@ -4,19 +4,21 @@ import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 import MyForm from "../components/formulario";
 
-
 import "../components/style.scss";
 
 export default () => (
   <div>
-         <Helmet>
-        <title>Contacto | Agencia de Marketing Digital en Querétaro</title>
-        <meta name="description" content="¿Buscas más información sobre nuestra Agencia de Marketing? No dudes en ponerte en contacto con nosotros y con gusto te resolveremos todas tus dudas."></meta>
-        <meta name="robots" content="index,follow"></meta>
-      </Helmet>
-      <Navbar />
+    <Helmet>
+      <title>Contacto | Agencia de Marketing Digital en Querétaro</title>
+      <meta
+        name="description"
+        content="¿Buscas más información sobre nuestra Agencia de Marketing? No dudes en ponerte en contacto con nosotros y con gusto te resolveremos todas tus dudas."
+      ></meta>
+      <meta name="robots" content="index,follow"></meta>
+    </Helmet>
     <div>
-      <section className="section sa">
+      <section className="oras">
+        <Navbar />
         <div className="container">
           <div className="columns">
             <div className="column is-three-quarters">
