@@ -23,26 +23,26 @@ const Navbar = () => (
         </Link>
       </div>
       <div className="column right">
-        <Link to="/contacto" className="navbar-item has-text-warning">
+        <Link to="/contacto" className="navbar-item has-text-grey-dark">
           Contacto
         </Link>
       </div>
     </div>
     <div className="columns is-hidden-desktop is-mobile is-marginless heading has-text-weight-bold">
       <div className="column left">
-        <Link to="/" className="navbar-item has-text-warning">
+        <Link to="/" className="navbar-item has-text-info">
           Inicio
         </Link>
       </div>
       <div className="column center"></div>
       <div className="column right">
-        <Link to="/portafolio" className="navbar-item has-text-success">
+        <Link to="/portafolio" className="navbar-item has-text-info">
           Portafolio
         </Link>
-		        <Link to="/posicionamiento-web-queretaro" className="navbar-item has-text-success">
+		        <Link to="/posicionamiento-web-queretaro" className="navbar-item has-text-info">
           SEO
         </Link>
-        <Link to="/contacto" className="navbar-item has-text-success">
+        <Link to="/contacto" className="navbar-item has-text-info">
           Contacto
         </Link>
       </div>

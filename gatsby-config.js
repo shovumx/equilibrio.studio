@@ -70,27 +70,11 @@ module.exports = {
             subsets: [`latin`]
           },
           {
-            family: `PT Sans`,
+            family: `Rubik`,
             variants: [`300`, `400`, `700`]
           },
           {
-            family: `PT Sans`,
-            subsets: [`latin`]
-          },
-          {
-            family: `Abril Fatface`,
-            variants: [`300`, `400`, `700`]
-          },
-          {
-            family: `Abril Fatface`,
-            subsets: [`latin`]
-          },
-          {
-            family: `Barlow Condensed`,
-            variants: [`300`, `400`, `700`]
-          },
-          {
-            family: `Barlow Condensed`,
+            family: `Rubik`,
             subsets: [`latin`]
           }
         ]

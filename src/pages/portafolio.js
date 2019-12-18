@@ -9,7 +9,7 @@ import "../components/style.scss";
 export default () => {
   const data = useStaticQuery(graphql`
     query {
-      imageOne: file(relativePath: { eq: "images/manejo_redes_sociales.jpg" }) {
+      imageOne: file(relativePath: { eq: "images/manejo_redes_sociales.png" }) {
         childImageSharp {
           fluid(maxWidth: 1200) {
             aspectRatio
@@ -20,7 +20,7 @@ export default () => {
           }
         }
       }
-      imageTwo: file(relativePath: { eq: "images/diseño_graficos.jpg" }) {
+      imageTwo: file(relativePath: { eq: "images/diseño_grafico_queretaro.png" }) {
         childImageSharp {
           fluid(maxWidth: 1200) {
             aspectRatio
@@ -31,7 +31,7 @@ export default () => {
           }
         }
       }
-      imageThree: file(relativePath: { eq: "images/diseño_apps.jpg" }) {
+      imageThree: file(relativePath: { eq: "images/diseño_apps_queretaro.png" }) {
         childImageSharp {
           fluid(maxWidth: 1200) {
             aspectRatio
@@ -42,7 +42,7 @@ export default () => {
           }
         }
       }
-      imageFour: file(relativePath: { eq: "images/diseño_banners.jpg" }) {
+      imageFour: file(relativePath: { eq: "images/diseño_banners_queretaro.png" }) {
         childImageSharp {
           fluid(maxWidth: 1200) {
             aspectRatio
@@ -53,7 +53,7 @@ export default () => {
           }
         }
       }
-      imageFive: file(relativePath: { eq: "images/branding.jpg" }) {
+      imageFive: file(relativePath: { eq: "images/branding_queretaro.png" }) {
         childImageSharp {
           fluid(maxWidth: 1200) {
             aspectRatio
@@ -88,11 +88,11 @@ export default () => {
               <h1 className="title is-1 has-text-white">
                 Portafolio de proyectos
               </h1>
-              <p className="subtitle is-5 has-text-white has-text-weight-bold">
-                <span className="magical">
+              <p className="subtitle is-5 has-text-white">
+                <i>
                   Una muestra de nuestro trabajo como Agencia de Marketing
                   Digital.{" "}
-                </span>
+                </i>
               </p>
             </div>
             <div className="column"></div>

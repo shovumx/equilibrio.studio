@@ -16,7 +16,7 @@ const Header = ({ siteTitle }) => (
             Agencia de Marketing Digital
           </h1>
           <h2 className="title is-1 has-text-white">Equilibrio Studio</h2>
-          <p className=" subtitle is-5 has-text-white has-text-weight-bold">
+          <p className=" subtitle is-5 has-text-white">
             Tú te encargas de hacer un gran producto. Nosotros nos encargamos de
             que llegue a las personas indicadas en Querétaro para potencializar
             tus ventas. <span className="magical">Así de simple.</span>
