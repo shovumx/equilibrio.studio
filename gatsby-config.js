@@ -62,19 +62,19 @@ module.exports = {
       options: {
         fonts: [
           {
-            family: `Exo`,
+            family: `Rubik`,
             variants: [`300`, `400`, `700`]
           },
           {
-            family: `Exo`,
+            family: `Rubik`,
             subsets: [`latin`]
           },
           {
-            family: `Rubik`,
+            family: `Exo`,
             variants: [`300`, `400`, `700`]
           },
           {
-            family: `Rubik`,
+            family: `Exo`,
             subsets: [`latin`]
           }
         ]

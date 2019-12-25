@@ -126,7 +126,7 @@ export default () => {
               />
             </div>
             <div className="column is-half">
-              <h2 className="title is-5 has-text-white">
+              <h2 className="title is-5 has-text-info">
                 &nbsp;&nbsp;Manejo de redes sociales
               </h2>
               <p className="subtitle is-5 has-text-white">

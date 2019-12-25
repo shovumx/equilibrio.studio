@@ -92,7 +92,7 @@ export default () => {
             <div className="columns">
               <div className="column"></div>
               <div className="column is-three-quarters">
-                <h2 className="title is-2 has-text-centered has-text-weight-bold has-text-white">
+                <h2 className="title is-3 has-text-centered has-text-weight-bold has-text-white">
                   <span className="magical">
                     La importancia del Marketing Digital
                   </span>
@@ -149,8 +149,8 @@ export default () => {
             <div className="columns">
               <div className="column"></div>
               <div className="column is-three-quarters">
-                <h2 className="title is-size-2 has-text-centered has-text-weight-bold has-text-white">
-                  <span className="magical">Sobre nuestra Agencia</span>
+                <h2 className="title is-size-3 has-text-centered has-text-weight-bold has-text-white">
+                  <span className="magical">Nuestra Agencia de Marketing Digital</span>
                 </h2>
                 <p className="is-size-5 has-text-white">
                   Antes de que sigas leyendo, es importante hablar un poco de
@@ -200,7 +200,7 @@ export default () => {
             <div className="columns">
               <div className="column"></div>
               <div className="column is-three-quarters">
-                <h2 className="title is-size-2 has-text-centered has-text-weight-bold has-text-white">
+                <h2 className="title is-size-3 has-text-centered has-text-weight-bold has-text-white">
                   <span className="magical">Manejo de redes sociales</span>
                 </h2>
                 <p className="is-size-5 has-text-white">
@@ -298,7 +298,7 @@ export default () => {
             <div className="columns">
               <div className="column"></div>
               <div className="column is-three-quarters">
-                <h2 className="title is-size-2 has-text-centered has-text-weight-bold has-text-white">
+                <h2 className="title is-size-3 has-text-centered has-text-weight-bold has-text-white">
                   <span className="magical">
                     <Link
                       to="/posicionamiento-web-queretaro"
@@ -347,7 +347,7 @@ export default () => {
             <div className="columns">
               <div className="column"></div>
               <div className="column is-three-quarters">
-                <h2 className="title is-size-2 has-text-centered has-text-weight-bold has-text-white">
+                <h2 className="title is-size-3 has-text-centered has-text-weight-bold has-text-white">
                   <span className="magical">
                     Diseño gráfico y creación de contenido
                   </span>
@@ -391,7 +391,7 @@ export default () => {
               <div className="container">
                 <div className="columns">
                   <div className="column is-half">
-                    <h2 className="title is-size-2 has-text-centered has-text-weight-bold has-text-white">
+                    <h2 className="title is-size-3 has-text-centered has-text-weight-bold has-text-white">
                       ¿Quieres más información sobre nosotros?
                     </h2>
                     <MyForm />
