@@ -31,8 +31,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: "Equilibrio Studio",
-        short_name: "Equilibrio",
+        name: "Agencia de marketing digital en Querétaro | Equilibrio Studio",
+        short_name: "Agencia de marketing digital en Querétaro",
         start_url: "/",
         background_color: "#2980b9",
         theme_color: "#2980b9",
