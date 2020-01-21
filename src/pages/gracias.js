@@ -11,7 +11,7 @@ export default () => {
   const data = useStaticQuery(graphql`
     query {
       imageFour: file(
-        relativePath: { eq: "images/hemovacuna.png" }
+        relativePath: { eq: "images/agencia_marketing_digital_queretaro.png" }
       ) {
         childImageSharp {
           fluid(maxWidth: 1200) {
@@ -36,27 +36,27 @@ export default () => {
         <meta name="robots" content="index,follow"></meta>
       </Helmet>
       
-      <section className="hero is-fullheight is-light">
+      <section className="hero is-fullheight atlas-7">
       <Navbar />
         <div className="hero-body">
           <div className="container">
             <div className="columns has-text-centered">
               <div className="column"></div>
-              <div className="column is-6">
-                <p className="subtitle is-3 is-size-5-mobile has-text-white has-text-weight-bold is-uppercase">
+              <div className="column">
+                <p className="subtitle is-3 is-size-5-mobile is-uppercase">
                   ¡Muchas gracias por ponerte en contacto con nosotros! <br />
                   Muy pronto te responderemos.
                 </p>
               </div>
 
-              <div className="column"></div>
+              
             </div>
             <div className="columns has-text-centered">
               <div className="column"></div>
               <div className="column is-3">
                 <a
                   href="/"
-                  className="button is-danger is-outlined is-rounded is-inverted"
+                  className="button is-warning is-rounded"
                 >
                   Regresa al inicio
                 </a>
@@ -64,24 +64,24 @@ export default () => {
               <div className="column is-3">
                 <a
                   href="https://equilibrio.studio/#informacion"
-                  className="button is-outlined is-rounded is-inverted"
+                  className="button is-warning is-rounded"
                 >
                   Más info. 
                 </a>
               </div>
-              <div className="column"></div>
+              
             </div>
             <div className="columns">
               <div className="column">
                 <p></p>
               </div>
-              <div className="column is-3">
+              <div className="column">
                 <Img
                   fluid={data.imageFour.childImageSharp.fluid}
-                  alt="Cámaras de seguridad para empresas en Querétaro"
+                  alt="Agencia de Marketing Digital en Querétaro"
                 />
               </div>
-              <div className="column"></div>
+              
             </div>
           </div>
         </div>

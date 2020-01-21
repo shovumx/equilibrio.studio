@@ -24,17 +24,6 @@ export default () => {
           }
         }
       }
-      imageTwo: file(relativePath: { eq: "images/publicidad.png" }) {
-        childImageSharp {
-          fluid(maxWidth: 1200) {
-            aspectRatio
-            sizes
-            base64
-            src
-            srcSet
-          }
-        }
-      }
       imageThree: file(
         relativePath: { eq: "images/agencia_marketing_digital_queretaro.png" }
       ) {
