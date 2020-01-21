@@ -4,7 +4,7 @@ import "./style.scss";
 import "./columns.scss";
 
 const Navbar = () => (
-  <div className="hero-head">
+  <div className="">
     <div className="columns is-hidden-mobile is-marginless heading has-text-weight-bold">
       <div className="column left">
         <Link to="/" className="navbar-item has-text-success">
@@ -30,7 +30,7 @@ const Navbar = () => (
     </div>
     <div className="columns is-hidden-desktop is-mobile is-marginless heading has-text-weight-bold">
       <div className="column left">
-        <Link to="/" className="navbar-item has-text-info">
+        <Link to="/" className="navbar-item has-text-success">
           Inicio
         </Link>
       </div>
@@ -47,6 +47,7 @@ const Navbar = () => (
         </Link>
       </div>
     </div>
+    
   </div>
 );
 

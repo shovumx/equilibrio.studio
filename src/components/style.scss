@@ -1,101 +1,240 @@
 // Importing variables
-@import './variables.scss';
+@import "./variables.scss";
 
 // Importing Bulma from node_modules
-@import '~bulma/bulma.sass';
+@import "~bulma/bulma.sass";
 @import "./node_modules/bulma/sass/layout/hero.sass";
 @import "./node_modules/bulma/sass/layout/_all.sass";
 
+html {
+  background: white;
+}
+.atlas-1 {
+  background: white url(../images/ES1.png) center / cover;
+}
+.atlas-2 {
+  background: white url(../images/ES2.png) center / cover;
+}
+.atlas-3 {
+  background: white url(../images/ES3.png) center / cover;
+}
+.atlas-4 {
+  background: white url(../images/ES4.png) center / cover;
+}
+.atlas-5 {
+  background: white url(../images/ES5.png) center / cover;
+}
+.atlas-6 {
+  background: white url(../images/ES6.png) center / cover;
+}
+.atlas-7 {
+  background: white url(../images/ES7.png) center / cover;
+}
 
+@media (max-width: 1024px) {
+  .atlas-1 {
+    background: white url(../images/487x1024.png) center / cover;
+  }
+}
+@media (max-width: 768px) {
+  .atlas-1 {
+    background: white url(../images/365x768.png) center / cover;
+  }
+}
+
+@media (max-width: 1024px) {
+  .atlas-2 {
+    background: white url(../images/CelES2.png) center / cover;
+  }
+}
+
+@media (max-width: 768px) {
+  .atlas-2 {
+    background: white url(../images/2CEL.png) center / cover;
+  }
+}
+
+@media (max-width: 1024px) {
+  .atlas-3 {
+    background: white url(../images/CelEs3.png) center / cover;
+  }
+}
+@media (max-width: 768px) {
+  .atlas-3 {
+    background: white url(../images/3CEL.png) center / cover;
+  }
+}
+
+@media (max-width: 1024px) {
+  .atlas-4 {
+    background: white url(../images/CelES4.png) center / cover;
+  }
+}
+@media (max-width: 768px) {
+  .atlas-4 {
+    background: white url(../images/4CEL.png) center / cover;
+  }
+}
+
+@media (max-width: 1024px) {
+  .atlas-5 {
+    background: white url(../images/CelSE5.png) center / cover;
+  }
+}
+@media (max-width: 768px) {
+  .atlas-5 {
+    background: white url(../images/5CEL.png) center / cover;
+  }
+}
+
+@media (max-width: 1024px) {
+  .atlas-6 {
+    background: white url(../images/CelEs6.png) center / cover;
+  }
+}
+@media (max-width: 768px) {
+  .atlas-6 {
+    background: white url(../images/6CEL.png) center / cover;
+  }
+}
+
+@media (max-width: 1024px) {
+  .atlas-7 {
+    background: white url(../images/CelEs7.png) center / cover;
+  }
+}
+@media (max-width: 768px) {
+  .atlas-7 {
+    background: white url(../images/7CEL.png) center / cover;
+  }
+}
 .gradientBg {
-	display: flex;
-	background: linear-gradient(to right, $primary-color, $secondary-color);
+  display: flex;
+  background: linear-gradient(to right, $primary-color, $secondary-color);
 }
-.hero {
-    background: black url(../images/Startup1.jpg) center / cover;
-}
-
-@media (max-width: 1024px) { .hero {background: black url(../images/celular1024.jpg) center / cover;} }
-@media (max-width: 768px) { .hero {background: black url(../images/celular768.jpg) center / cover;} }
 
 .footer {
-	background-color: #3f51b1;
-	display: flex;
-	padding: 1.5rem 1.5rem;
-	line-height: 1.5rem;
-	a {
-		border-bottom: 1px solid;
-		color: black;
-	}
-	a:hover {
-		color: $secondary-color;
-	}
+  background-color: #f2dece;
+  display: flex;
+  padding: 1.5rem 1.5rem;
+  line-height: 1.5rem;
+  a {
+    border-bottom: 1px solid;
+    color: black;
+  }
+  a:hover {
+    color: $warning;
+  }
 }
 
-h1, h2, h3, h4, h5, h6 {
-	font-family: 'Exo',-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-	color: #fff;
-	font-weight: 700;
-	line-height: 100%;
-	margin-top: 1rem;
-	margin-bottom: 0.5rem;  
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: black;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 1.2pt;
+  margin-bottom: 1.8rem;
 }
 
-body, p, .label {
-	font-family: 'Rubik',-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-	line-height: 200%;  
-	color: #fff;
+body,
+p,
+.label {
+  font-family: "Alegreya", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  line-height: 1.8;
+  color: black;
+  letter-spacing: 1.2pt;
 }
 
-section {
-	padding-bottom: 2em;
+.inter {
+  line-height: 1.6;
+}
+footer {
+  padding-bottom: 0;
 }
 
-Footer {
-	padding-bottom: 0;
-}
-
-.column {
-	padding-left: 1em;
-}
-
-.button {
-	padding-left: 1em; 
-	padding-right: 1em; 
-}
-
-.textarea {
-	padding-bottom: 1.4em;
-}
-
-.oras {
-	background-image: linear-gradient(to top, #3f51b1 0%, #5a55ae 13%, #7b5fac 25%, #8f6aae 38%, #a86aa4 50%, #cc6b8e 62%, #f18271 75%, #f3a469 87%, #f8b94c 100%);
-}
 .b1 {
-	box-shadow: 0 10px 6px -6px #777;
-	background-color: #EB7B00;
-	padding-top: 1em;
+  box-shadow: 0 10px 6px -6px #777;
+  background-color: #eb7b00;
+  padding-top: 1em;
 }
 
 .button {
-	padding-right: 0.5em;
+  padding-right: 0.5em;
 }
 
 a {
-	color: #fff;
+  color: #BE8E83;
+  
+}
+
+.loro {
+  text-decoration: underline dashed;
 }
 
 a:hover {
-	color: #fff;
-
+  color: #BE8E83;
+  text-decoration: underline wavy;
 }
 
-.is-three-quarters {
-	margin-left: 1rem;
-	margin-right: 1rem;
-}
+
 
 .is-size-5 {
-	margin-top: 1rem;
-	margin-bottom: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.ola {
+  margin-top: 2rem;
+}
+
+.ola-2 {
+  margin-top: 4rem;
+}
+.ola-3 {
+  margin-top: 1rem;
+}
+.pumas {
+  background-color: #ffff00;
+}
+
+.morado {
+  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: black;
+}
+
+.grueso {
+  
+  font-weight: 700;
+}
+
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+
+.my-float {
+  margin-top: 7px;
+}
+
+.columns {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
 }

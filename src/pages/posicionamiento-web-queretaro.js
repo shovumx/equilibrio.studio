@@ -6,6 +6,7 @@ import Img from "gatsby-image";
 import { useStaticQuery, graphql } from "gatsby";
 import "../components/style.scss";
 import "../components/columns.scss";
+import { FaWhatsapp } from "react-icons/fa";
 
 export default () => {
   const data = useStaticQuery(graphql`
@@ -59,7 +60,14 @@ export default () => {
         ></meta>
         <meta name="robots" content="index,follow"></meta>
       </Helmet>
-      
+      <a
+        href="https://api.whatsapp.com/send?phone=5214421319447&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20ustedes.%20"
+        className="float"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <FaWhatsapp size={45} className="my-float" />
+      </a>
       <section className="oras">
       <Navbar />
         <div className="columns">

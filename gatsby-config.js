@@ -62,19 +62,27 @@ module.exports = {
       options: {
         fonts: [
           {
-            family: `Rubik`,
+            family: `Poppins`,
             variants: [`300`, `400`, `700`]
           },
           {
-            family: `Rubik`,
+            family: `Poppins`,
             subsets: [`latin`]
           },
           {
-            family: `Exo`,
+            family: `Alegreya`,
             variants: [`300`, `400`, `700`]
           },
           {
-            family: `Exo`,
+            family: `Alegreya`,
+            subsets: [`latin`]
+          },
+          {
+            family: `Roboto Slab`,
+            variants: [`300`, `400`, `700`]
+          },
+          {
+            family: `Roboto Slab`,
             subsets: [`latin`]
           }
         ]
