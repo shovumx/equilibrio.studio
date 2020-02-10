@@ -36,13 +36,13 @@ const Navbar = () => (
       </div>
       <div className="column center"></div>
       <div className="column right">
-        <Link to="/portafolio" className="navbar-item has-text-info">
+        <Link to="/portafolio" className="navbar-item has-text-warning">
           Portafolio
         </Link>
-		        <Link to="/posicionamiento-web-queretaro" className="navbar-item has-text-info">
-          SEO
+		        <Link to="/blog" className="navbar-item has-text-warning">
+          Blog
         </Link>
-        <Link to="/contacto" className="navbar-item has-text-info">
+        <Link to="/contacto" className="navbar-item has-text-warning">
           Contacto
         </Link>
       </div>

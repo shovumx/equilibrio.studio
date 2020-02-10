@@ -12,7 +12,7 @@ export default () => {
   const data = useStaticQuery(graphql`
     query {
       imageOne: file(
-        relativePath: { eq: "images/agencia_marketing_digital.png" }
+        relativePath: { eq: "images/posicionamiento_web_queretaro.png" }
       ) {
         childImageSharp {
           fluid(maxWidth: 1200) {
@@ -25,7 +25,7 @@ export default () => {
         }
       }
       imageThree: file(
-        relativePath: { eq: "images/agencia_marketing_digital_queretaro.png" }
+        relativePath: { eq: "images/posicionamiento_seo_queretaro.png" }
       ) {
         childImageSharp {
           fluid(maxWidth: 1200) {
@@ -43,7 +43,7 @@ export default () => {
     <div>
       <Helmet />
       <a
-        href="https://api.whatsapp.com/send?phone=5214421319447&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20ustedes.%20"
+        href="https://api.whatsapp.com/send?phone=5214421319447&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20SEO.%20"
         className="float"
         target="_blank"
         rel="noopener noreferrer"
@@ -59,10 +59,10 @@ export default () => {
               <div className="column">
                 <Img
                   fluid={data.imageThree.childImageSharp.fluid}
-                  alt="Agencia de Marketing Digital en Querétaro"
+                  alt="Posicionamiento Web SEO en Querétaro"
                 />
                 <h1 className="subtitle is-uppercase is-size-6-mobile">
-                  Agencia de Marketing Digital
+                  Posicionamiento Web en Querétaro
                 </h1>
                 <p className="is-size-4 is-size-5-mobile morado ola-2">
                   <span className="grueso">Tú</span> te encargas de hacer un
@@ -99,14 +99,13 @@ export default () => {
               <div className="column"></div>
               <div className="column has-text-centered">
                 <h2 className="is-size-2 is-size-5-mobile">
-                  Una Agencia de Marketing Digital a tu alcance
+                  Posicionamiento web (SEO) a tu alcance
                 </h2>
                 <p className="is-size-4 is-size-5-mobile">
                   ¿Sabías que la mayoría de los emprendimientos fracasan porque
-                  no tienen una buena estrategia de publicidad?{" "}
-                  <Link to="/">Equlibrio.Studio</Link> es una Agencia de
-                  Marketing Digital enfocada en las pequeñas y medianas empresas
-                  de Querétaro. De esta manera,{" "}
+                  no tienen visibilidad? <Link to="/">Equlibrio.Studio</Link> es
+                  una Agencia de posicionamiento web enfocada en las pequeñas y
+                  medianas empresas de Querétaro. De esta manera,
                   <span className="grueso">
                     no tienes que invertir grandes cantidades de dinero
                   </span>{" "}
@@ -155,15 +154,15 @@ export default () => {
               <div className="column"></div>
               <div className="column is-three-quarters has-text-centered ola">
                 <h2 className="is-size-2 is-size-5-mobile">
-                  ¿Qué servicios tenemos?{" "}
+                  Posicionamiento web (SEO)
                 </h2>
                 <p className="is-size-4 is-size-5-mobile">
-                  En nuestra Agencia de Marketing Digital somos especialistas en
-                  manejo de redes sociales (actualmente sumamos más de 90
-                  millones de seguidores entre todas las cuentas que manejamos),
-                  diseño de páginas web ultra-rápidas con la tecnología más
-                  moderna, posicionamiento (SEO) en Google, creación de blogs de
-                  nichos, fotografía y vídeo de producto.
+                  Tener tu página en la primera página de Google es uno de los
+                  impulsos más grandes que puede tener tu negocio. En nuestra
+                  Agencia de Marketing Digital somos conscientes de eso, así que
+                  tenemos un equipo de gente especializada en el posicionamiento
+                  web en Google para que estés a la vista de muchas personas que
+                  están buscando lo que tú les puedes ofrecer.
                 </p>
               </div>
               <div className="column"></div>
@@ -171,7 +170,10 @@ export default () => {
             <div className="columns">
               <div className="column"></div>
               <div className="is-4 has-text-weight-bold is-centered ola-3">
-                <Link to="/portafolio" className="button is-warning is-rounded">
+                <Link
+                  to="/posicionamiento-web-queretaro"
+                  className="button is-warning is-rounded"
+                >
                   LEER MÁS
                 </Link>
               </div>
@@ -191,17 +193,14 @@ export default () => {
               <div className="column"></div>
               <div className="column has-text-centered ola">
                 <h2 className="is-size-2 is-size-5-mobile">
-                  Posicionamiento web (SEO)
+                  ¿Qué otros servicios tenemos?{" "}
                 </h2>
                 <p className="is-size-4 is-size-5-mobile">
-                  Tener tu página en la primera página de Google es uno de los
-                  impulsos más grandes que puede tener tu negocio. En nuestra
-                  Agencia de Marketing Digital somos conscientes de eso, así que
-                  tenemos un equipo de gente especializada en el posicionamiento
-                  web en Google para que estés a la vista de muchas personas que
-                  están buscando lo que tú les puedes ofrecer.
+                  También somos especialistas en manejo de redes sociales
+                  (actualmente sumamos más de 90 millones de seguidores entre
+                  todas las cuentas que manejamos), fotografía, animaciones y
+                  vídeo de producto.
                 </p>
-  
               </div>
             </div>
             <div className="columns">
@@ -209,13 +208,12 @@ export default () => {
               <div className="column"></div>
               <div className="column"></div>
               <div className="is-4 has-text-weight-bold is-centered ola-3">
-                <Link to="/posicionamiento-web-queretaro" className="button is-warning is-rounded">
+                <Link to="/portafolio" className="button is-warning is-rounded">
                   LEER MÁS
                 </Link>
               </div>
               <div className="column"></div>
             </div>
- 
           </div>
         </div>
       </section>
@@ -226,17 +224,13 @@ export default () => {
             <div className="columns has-text-centered">
               <div className="column ola">
                 <h2 className="is-size-2 is-size-5-mobile">
-                  ¿Qué otros servicios tenemos en la Agencia de Marketing
-                  Digital?
+                  Creación de contenido para posicionamiento web
                 </h2>
                 <p className="is-size-4 is-size-5-mobile">
-                  Hacemos cosas para Instagram, diseños para tu negocio,
-                  plantillas para cotizaciones... Es muy difícil escribir todo
-                  cuando nuestro objetivo es adaptarnos por completo a las
-                  necesidades de tu emprendimiento. Lo que puedes estar muy
-                  seguro es que el precio siempre será el más justo para que el
-                  dinero no sea un impedimento y puedas desarrollar todo tu
-                  potencial.
+                  Tenemos un gran equipo creativo que puede hacer contenido de
+                  alta calidad para que tu marca se distinga de la competencia
+                  con conocimiento de alto nivel y que tenga un buen
+                  posicionamiento en Google.
                 </p>
               </div>
               <div className="column"></div>

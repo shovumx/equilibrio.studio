@@ -12,7 +12,20 @@ export default () => {
   const data = useStaticQuery(graphql`
     query {
       imageOne: file(
-        relativePath: { eq: "images/posicionamiento_web_queretaro.png" }
+        relativePath: { eq: "images/agencia_seo_queretaro.png" }
+      ) {
+        childImageSharp {
+          fluid(maxWidth: 1200) {
+            aspectRatio
+            sizes
+            base64
+            src
+            srcSet
+          }
+        }
+      }
+      imageTwo: file(
+        relativePath: { eq: "images/seo_en_queretaro.png" }
       ) {
         childImageSharp {
           fluid(maxWidth: 1200) {
@@ -25,7 +38,20 @@ export default () => {
         }
       }
       imageThree: file(
-        relativePath: { eq: "images/agencia_marketing_digital_queretaro.png" }
+        relativePath: { eq: "images/posicionamiento_web_queretaro.png" }
+      ) {
+        childImageSharp {
+          fluid(maxWidth: 1200) {
+            aspectRatio
+            sizes
+            base64
+            src
+            srcSet
+          }
+        }
+      }
+      imageFour: file(
+        relativePath: { eq: "images/agenciaI_posicionamiento_web_en_queretaro.png" }
       ) {
         childImageSharp {
           fluid(maxWidth: 1200) {
@@ -42,10 +68,12 @@ export default () => {
   return (
     <div>
       <Helmet>
-        <title>Portafolio de proyectos | Equilibrio Studio</title>
+        <title>
+          Blog sobre emprendimiento en Querétaro | Equilibrio Studio
+        </title>
         <meta
           name="description"
-          content="Revisa nuestros proyectos más recientes, donde podrás ver a detalle qué hacemos y cómo lo podemos aplicar a tu idea de negocio."
+          content="¿Estás comenzando tu negocio? Te presentamos una serie de consejos y trucos para que el proceso sea más fácil y exitoso."
         ></meta>
         <meta name="robots" content="index,follow"></meta>
       </Helmet>
@@ -62,155 +90,188 @@ export default () => {
         <div className="hero-body">
           <div className="container">
             <h1 className="is-size-2 is-size-5-mobile">
-              Posicionamiento web: nuestro portafolio
+              Posicionamiento web (SEO) en Querétaro
             </h1>
             <p className="is-size-3 is-size-5-mobile">
-              En esta página podrás revisar nuestros proyectos más recientes,
-              donde podrás ver a detalle qué hacemos y cómo lo podemos aplicar a
-              tu idea de negocio.
+              En esta página podrás encontrar consejos de emprendimiento
             </p>
+          </div>
+        </div>
+      </section>
+      <section className="section">
+        <div classname="container">
+          <div className="columns has-text-centered">
+            <div className="column"></div>
+            <div className="column is-three-quarters">
+              <h3 className="is-size-2 is-size-5-mobile">Índice:</h3>
+            </div>
+            <div className="column"></div>
+          </div>
+          <div className="columns has-text-centered">
+            <div className="column">
+              <div className="notification is-info">
+                <FaWhatsapp size={45} />
+                <p className="is-size-3 is-size-6-mobile">
+                  Este es un título prueba
+                </p>
+                <p className="is-size-4 is-size-6-mobile">
+                  Este es un texto prueba. Este es un texto prueba. Este es un
+                  texto prueba. Este es un texto prueba. Este es un texto
+                  prueba.
+                </p>
+                <Link
+                  to="/#informacion"
+                  className="button is-danger is-inverted is-rounded ola-3"
+                >
+                  LEER MÁS
+                </Link>
+              </div>
+              <div className="notification is-danger">
+                <FaWhatsapp size={45} />
+                <p className="is-size-3 is-size-6-mobile">
+                  Este es un título prueba
+                </p>
+                <p className="is-size-4 is-size-6-mobile">
+                  Este es un texto prueba. Este es un texto prueba. Este es un
+                  texto prueba. Este es un texto prueba. Este es un texto
+                  prueba.
+                </p>
+                <Link
+                  to="/#informacion"
+                  className="button is-danger is-inverted is-rounded ola-3"
+                >
+                  LEER MÁS
+                </Link>
+              </div>
+            </div>
+            <div className="column">
+              <div className="notification is-info">
+                <FaWhatsapp size={45} />
+                <p className="is-size-3 is-size-6-mobile">
+                  Este es un título prueba
+                </p>
+                <p className="is-size-4 is-size-6-mobile">
+                  Este es un texto prueba. Este es un texto prueba. Este es un
+                  texto prueba. Este es un texto prueba. Este es un texto
+                  prueba.
+                </p>
+                <Link
+                  to="/#informacion"
+                  className="button is-danger is-inverted is-rounded ola-3"
+                >
+                  LEER MÁS
+                </Link>
+              </div>
+              <div className="notification is-danger">
+                <FaWhatsapp size={45} />
+                <p className="is-size-3 is-size-6-mobile">
+                  Este es un título prueba
+                </p>
+                <p className="is-size-4 is-size-6-mobile">
+                  Este es un texto prueba. Este es un texto prueba. Este es un
+                  texto prueba. Este es un texto prueba. Este es un texto
+                  prueba.
+                </p>
+                <Link
+                  to="/#informacion"
+                  className="button is-danger is-inverted is-rounded ola-3"
+                >
+                  LEER MÁS
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="section" id="seo-que-es">
+        <div className="container">
+          <div className="columns">
+            
+            <div className="column">
+              <h2 className="is-size-3 is-size-6-mobile">
+                Este es un subtítulo prueba
+              </h2>
+              <p className="is-size-4 is-size-6-mobile">
+                Este es un párrafo prueba. Este es un párrafo prueba. Este es un
+                párrafo prueba. Este es un párrafo prueba. Este es un párrafo
+                prueba. Este es un párrafo prueba. Este es un párrafo prueba.
+                Este es un párrafo prueba. Este es un párrafo prueba.{" "}
+              </p>
+            </div>
             <Img
               fluid={data.imageOne.childImageSharp.fluid}
-              alt="Posicionamiento Web SEO en Querétaro"
+              alt="Posicionamiento Web en Querétaro"
             />
           </div>
         </div>
       </section>
-      <section className="section is-light is-bold">
-        <div classname="container">
-          <div className="columns has-text-centered">
+      <section className="section" id="seo-que-es">
+        <div className="container">
+          <div className="columns">
+            
             <div className="column">
-              <div className="notification is-info">
-                <h2 className="is-size-3 is-size-6-mobile">
-                  Posicionamiento web (SEO)
-                </h2>
-                <p className="is-size-4 is-size-6-mobile">
-                  Este es un texto prueba. Este es un texto prueba. Este es un
-                  texto prueba. Este es un texto prueba. Este es un texto
-                  prueba.
-                </p>
-                <Link
-                  to="/portafolio#manejo-redes-sociales"
-                  className="button is-danger is-inverted is-rounded ola-3"
-                >
-                  LEER MÁS
-                </Link>
-              </div>
-              <div className="notification is-danger">
-                <h2 className="is-size-3 is-size-6-mobile">Diseño de páginas web</h2>
-                <p className="is-size-4 is-size-6-mobile">
-                  Este es un texto prueba. Este es un texto prueba. Este es un
-                  texto prueba. Este es un texto prueba. Este es un texto
-                  prueba.
-                </p>
-                <Link
-                  to="/portafolio#posicionamiento-web-SEO-buscadores"
-                  className="button is-danger is-inverted is-rounded ola-3"
-                >
-                  LEER MÁS
-                </Link>
-              </div>
+              <h2 className="is-size-3 is-size-6-mobile">
+                Este es un subtítulo prueba
+              </h2>
+              <p className="is-size-4 is-size-6-mobile">
+                Este es un párrafo prueba. Este es un párrafo prueba. Este es un
+                párrafo prueba. Este es un párrafo prueba. Este es un párrafo
+                prueba. Este es un párrafo prueba. Este es un párrafo prueba.
+                Este es un párrafo prueba. Este es un párrafo prueba.{" "}
+              </p>
             </div>
-            <div className="column">
-              <div className="notification is-info">
-                <h2 className="is-size-3 is-size-6-mobile">
-                  Manejo de redes sociales
-                </h2>
-                <p className="is-size-4 is-size-6-mobile">
-                  Este es un texto prueba. Este es un texto prueba. Este es un
-                  texto prueba. Este es un texto prueba. Este es un texto
-                  prueba.
-                </p>
-                <Link
-                  to="/portafolio#diseño-web"
-                  className="button is-danger is-inverted is-rounded ola-3"
-                >
-                  LEER MÁS
-                </Link>
-              </div>
-              <div className="notification is-danger">
-                <h2 className="is-size-3 is-size-6-mobile">Fotografía y vídeo</h2>
-                <p className="is-size-4 is-size-6-mobile">
-                  Este es un texto prueba. Este es un texto prueba. Este es un
-                  texto prueba. Este es un texto prueba. Este es un texto
-                  prueba.
-                </p>
-                <Link
-                  to="/portafolio#fotografia-y-video"
-                  className="button is-danger is-inverted is-rounded ola-3"
-                >
-                  LEER MÁS
-                </Link>
-              </div>
-            </div>
+            <Img
+              fluid={data.imageOne.childImageSharp.fluid}
+              alt="Posicionamiento Web en Querétaro"
+            />
           </div>
         </div>
       </section>
-      <section
-        className="section is-light is-bold"
-        id="posicionamiento-web-SEO-buscadores"
-      >
+      <section className="section" id="seo-que-es">
         <div className="container">
           <div className="columns">
+            
             <div className="column">
               <h2 className="is-size-3 is-size-6-mobile">
-                Manejo de redes sociales
+                Este es un subtítulo prueba
               </h2>
               <p className="is-size-4 is-size-6-mobile">
-                Este es un texto prueba. Este es un texto prueba. Este es un
-                texto prueba. Este es un texto prueba. Este es un texto prueba.
+                Este es un párrafo prueba. Este es un párrafo prueba. Este es un
+                párrafo prueba. Este es un párrafo prueba. Este es un párrafo
+                prueba. Este es un párrafo prueba. Este es un párrafo prueba.
+                Este es un párrafo prueba. Este es un párrafo prueba.{" "}
               </p>
             </div>
+            <Img
+              fluid={data.imageOne.childImageSharp.fluid}
+              alt="Posicionamiento Web en Querétaro"
+            />
           </div>
         </div>
       </section>
-      <section className="section is-light is-bold" id="diseño-web">
+      <section className="section" id="seo-que-es">
         <div className="container">
           <div className="columns">
+            
             <div className="column">
               <h2 className="is-size-3 is-size-6-mobile">
-                Manejo de redes sociales
+                Este es un subtítulo prueba
               </h2>
               <p className="is-size-4 is-size-6-mobile">
-                Este es un texto prueba. Este es un texto prueba. Este es un
-                texto prueba. Este es un texto prueba. Este es un texto prueba.
+                Este es un párrafo prueba. Este es un párrafo prueba. Este es un
+                párrafo prueba. Este es un párrafo prueba. Este es un párrafo
+                prueba. Este es un párrafo prueba. Este es un párrafo prueba.
+                Este es un párrafo prueba. Este es un párrafo prueba.{" "}
               </p>
             </div>
+            <Img
+              fluid={data.imageOne.childImageSharp.fluid}
+              alt="Posicionamiento Web en Querétaro"
+            />
           </div>
         </div>
       </section>
  
-      <section className="section is-light is-bold" id="manejo-redes-sociales">
-        <div className="container">
-          <div className="columns">
-            <div className="column">
-              <h2 className="is-size-3 is-size-6-mobile">
-                Manejo de redes sociales
-              </h2>
-              <p className="is-size-4 is-size-6-mobile">
-                Este es un texto prueba. Este es un texto prueba. Este es un
-                texto prueba. Este es un texto prueba. Este es un texto prueba.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-     <section className="section is-light is-bold" id="fotografia-y-video">
-        <div className="container">
-          <div className="columns">
-            <div className="column">
-              <h2 className="is-size-3 is-size-6-mobile">
-                Manejo de redes sociales
-              </h2>
-              <p className="is-size-4 is-size-6-mobile">
-                Este es un texto prueba. Este es un texto prueba. Este es un
-                texto prueba. Este es un texto prueba. Este es un texto prueba.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       <Footer />
     </div>
   );
