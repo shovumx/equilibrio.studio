@@ -11,7 +11,7 @@ export default () => {
   const data = useStaticQuery(graphql`
     query {
       imageFour: file(
-        relativePath: { eq: "images/agencia_marketing_digital_queretaro.png" }
+        relativePath: { eq: "images/posicionamiento_seo_queretaro.png" }
       ) {
         childImageSharp {
           fluid(maxWidth: 1200) {
