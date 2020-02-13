@@ -38,15 +38,15 @@ export default () => (
 				{/* <!-- Open Graph / Facebook --> */}
 				<meta property="og:type" content="website" />
             <meta property="og:url" content="https://equilibrio.studio/" />
-            <meta property="og:title" content="Agencia de Marketing digital en Querétaro | Equilibrio" />
-            <meta property="og:description" content="Somos una agencia de marketing digital enfocada en pequeñas y medianas empresas. Nuestras fortalezas: SEO, social media, diseño web y gráfico." />
-            <meta property="og:image" content="https://equilibrio.studio/static/7ee654e0323b4c3b91b80cb5687683d5/ba299/seo.png" />
+            <meta property="og:title" content="Posicionamiento web en Querétaro" />
+            <meta property="og:description" content="Somos una agencia de posicionamiento web enfocada en pequeñas y medianas empresas. Nuestras otras fortalezas: social media, diseño web y gráfico." />
+            <meta property="og:image" content="https://res.cloudinary.com/dpzoehc6i/image/upload/v1581629540/RedesES_iwery3.jpg" />
             {/* <!-- Twitter --> */}
             <meta property="twitter:card" content="summary_large_image" />
             <meta property="twitter:url" content="https://equilibrio.studio/" />
-            <meta property="twitter:title" content="Agencia de Marketing digital en Querétaro | Equilibrio" />
-            <meta property="twitter:description" content="Somos una agencia de marketing digital enfocada en pequeñas y medianas empresas. Nuestras fortalezas: SEO, social media, diseño web y gráfico." />
-            <meta property="twitter:image" content="https://equilibrio.studio/static/7ee654e0323b4c3b91b80cb5687683d5/ba299/seo.png" />
+            <meta property="twitter:title" content="Posicionamiento web en Querétaro" />
+            <meta property="twitter:description" content="Somos una agencia de posicionamiento web enfocada en pequeñas y medianas empresas. Nuestras otras fortalezas: social media, diseño web y gráfico." />
+            <meta property="twitter:image" content="https://res.cloudinary.com/dpzoehc6i/image/upload/v1581629540/RedesES_iwery3.jpg" />
 
 			</Helmet>
 		)}

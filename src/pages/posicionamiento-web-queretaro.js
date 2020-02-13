@@ -83,7 +83,6 @@ export default () => {
       </a>
       <Navbar />
       <section className="hero is-medium is-light is-bold">
-        
         <div className="hero-body">
           <div className="container">
             <h1 className="is-size-2 is-size-5-mobile">
@@ -93,7 +92,7 @@ export default () => {
               ¿Cuál es la diferencia entre el SEO y el SEM? No tener clara la
               respuesta a esa pregunta sobre posicionamiento web en Google puede
               perjudicar las ventas de tu negocio. En nuestra Agencia de
-              Marketing Digital podemos ayudarte a implementar una estrategia
+              Posicionamiento Web podemos ayudarte a implementar una estrategia
               para potenciar tus ventas por internet.
             </p>
           </div>
@@ -110,15 +109,26 @@ export default () => {
               generar ganancias.
             </p>
             <p className="is-size-4 is-size-5-mobile">
+              ¿Tu negocio aprovcha esto? ¿Tu página web es visible para todo
+              este mercado que se mueve en Google?
+            </p>
+            <p className="is-size-4 is-size-5-mobile">
               Hay una estadística demoledora: el 93% de la gente que utiliza
               Google jamás llega a la segunda página del resultado de búsquedas.
               Así que da igual si apareces en la página 20 o en la segunda, si
-              no llegas a la primera página de Google, tu negocio está en las
-              sombras.{" "}
+              no posicionas tu página en la primera página de Google, tu negocio
+              y tus ganancias están en las sombras.{" "}
+            </p>
+            <p className="is-size-4 is-size-5-mobile">
+              Muchos negocios no lo saben (o no lo quieren saber por aferrarse a
+              prácticas de marketing más tradicionales), pero el posicionamiento
+              web es o debería ser una de las mejores fuentes de ingresos para
+              sus negocios.{" "}
             </p>
             <p className="is-size-4 is-size-5-mobile">
               Entonces, ¿cómo hacerle para que tu página web llegue a la primera
-              página de los resultados de Google?
+              página de los resultados de Google? ¿Cómo posicionar tu web en el
+              mejor lugar de Google?
             </p>
             <Img
               fluid={data.imageOne.childImageSharp.fluid}
@@ -134,7 +144,8 @@ export default () => {
             <p className="is-size-4 is-size-5-mobile">
               Uno, el más largo, es que Google reconozca la calidad de tu página
               web y crea conveniente que los usuarios de su servicio te lean de
-              inmediato y te ponga en los primeros lugares de sus búsquedas.
+              inmediato y te ponga en los primeros lugares de resultados de sus
+              búsquedas.
             </p>
             <p className="is-size-4 is-size-5-mobile">
               El otro, un camino más corto, es utilizar la plataforma de
@@ -261,6 +272,113 @@ export default () => {
               , hasta la creación de contenido para que tu empresa resalte entre
               la competencia con elementos que hagan tu marca distinta e
               innovadora.{" "}
+            </p>
+            <h2 className="is-size-2 is-size-5-mobile">
+              Pero, ¿cómo funciona el posicionamiento web?
+            </h2>
+            <p className="is-size-4 is-size-5-mobile">
+              El SEO no siempre ha sido lo mismo. El posicionamiento web ha ido
+              cambiando a lo largo de los más de 20 años de historia de Google.
+              Lo que todo comenzó como una tesis doctoral, años después se
+              convirtió en una de las empresas más valiosas y poderosas del
+              mundo.
+            </p>
+            <p className="is-size-4 is-size-5-mobile">
+              En la actualidad, el SEO está fundamentado en tres aspectos que
+              son bastante intuitivos: la confianza, la autoridad y el ser un
+              experto en la materia.
+            </p>
+            <p className="is-size-4 is-size-5-mobile">
+              Piensa en cómo contratas a alguien para que te dé un servicio. Si
+              viene recomendado por alguien, te da confianza. Si, encima, es
+              alguien que sabe mucho, pues todavía mejor. Y si es reconocido por
+              la comuidad (y por tanto tiene autoridad), ¿qué más necesitas para
+              contratarlo?
+            </p>
+            <p className="is-size-4 is-size-5-mobile">
+              Sin embargo, si esto lo analizas así, es muy fácil de entenderlo.
+              La cosa se vuelve infinitamente más complicada cuando se tratan de
+              millones y millones de páginas que hay en internet. ¿Cómo diseñar
+              un algoritmo que pueda posicionar las páginas web de acuerdo a
+              este principio?
+            </p>
+            <p className="is-size-4 is-size-5-mobile">
+              Para darte un poco de contexto, Google procesa 4,500,000 de
+              búsquedas por minuto al día. Cuatro millones y medio. Y en cada
+              una de esas búsquedas, Google tiene que decidir, en fracciones de
+              segundo, cómo va a ordenar todas las páginas de internet que tiene
+              indexadas.
+            </p>
+            <Img
+              fluid={data.imageFour.childImageSharp.fluid}
+              alt="SEO en Querétaro"
+            />
+            <h2 className="is-size-2 is-size-5-mobile">
+              SEO: autoridad, confianza y conocimiento
+            </h2>
+            <p className="is-size-4 is-size-5-mobile">
+              Para lograr este gran orden, Google navega constantemente todas
+              las páginas web para utilizar inteligencia artificial y entender
+              de qué trata el sitio web. Sería imposible o muy costoso tener 4
+              millones de personas respondiendo todas las peticiones que se
+              hacen por minuto, así que tiene que hacerse todo de manera
+              automatizada.
+            </p>
+            <p className="is-size-4 is-size-5-mobile">
+              Pero, ¿qué pasa cuando dos páginas tratan sobre lo mismo? ¿Cómo
+              darle un lugar más alto en la página de resultados? Aquí es donde
+              entra la autoridad, la confianza y el conocimiento.
+            </p>
+            <p className="is-size-4 is-size-5-mobile">
+              Estos tres factores es un reconocimiento interno que Google le da
+              a la gente que sabe sobre determinada materia. ¿Quién sabe más de
+              medicina? ¿Un médico que ha escrito miles de artículos o alguien
+              que simplemente se puso a investigar de forma amateur y publicó un
+              texto más informal?
+            </p>
+            <p className="is-size-4 is-size-5-mobile">
+              Volvamos al ejemplo del mundo físico. Si una persona te recomienda
+              a otra, le das tu voto de confianza. Si 10 personas te lo
+              recomiendan, es casi un hecho que le vas a dar el beneficio de la
+              duda. En internet funciona igual, pero con los enlaces. Cada que
+              alguien enlaza a tu página, es una recomendación digital como lo
+              harías en el mundo físico.
+            </p>
+            <p className="is-size-4 is-size-5-mobile">
+              Y si eso lo conjugas con varios años escribiendo sobre tu area de
+              conocimiento, ¡pues qué mejor! Google sabe que eres activo. Y, si
+              eres activo, es porque en cierta medida eres una persona exitosa.
+              En el mundo físico, ¿qué local puede estar varios años abierto si
+              no es porque genera ingresos? Y si genera ingresos es precisamente
+              porque es una persona que sabe hacer bien su trabajo.
+            </p>
+            <h2 className="is-size-2 is-size-5-mobile">
+              Lo visual también es importante para el SEO
+            </h2>
+            <p className="is-size-4 is-size-5-mobile">
+              Pero no todo en la vida es el conocimiento. Para posicionar tu
+              página web en Google también tienes que ser presentable. Tu página
+              web debe estar limpia, ser accesible y estar bien hecha. Una vez
+              más, Google sigue siendo bastante intuitivo. ¿A quién le darían
+              ganas de entrar a un local sucio o donde tardan mucho en atender?
+            </p>
+            <p className="is-size-4 is-size-5-mobile">
+              Por eso, es muy importante prestar atención a los factores
+              técnicos que están detrás de una página. Que las imágenes estén
+              optimizadas y carguen rápido. Que las animaciones (si es que tiene
+              animaciones) no vuelvan muy lenta la página. Que la página sea
+              funcional en el teléfono móvil y que los colores no la vuelvan
+              difícil de leer.
+            </p>
+            <h2 className="is-size-2 is-size-5-mobile">Nuestra promesa</h2>
+            <p className="is-size-4 is-size-5-mobile">
+              Nuestra promesa como Agencia de posicionamiento web en Querétaro
+              es darle a tu negocio todo esto que necesita. Generar contenido
+              útil para los demás y darle a tu empresa ese factor de
+              diferenciación por encima de tu competencia. Remodelar tu página
+              para que cumpla con todos estos requisitos. Y, sobre todo, nunca
+              perder de vista que el objetivo de todo esto es que más gente
+              pueda conocer tu negocio.
             </p>
           </div>
           <div className="column"></div>

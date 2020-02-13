@@ -37,6 +37,20 @@ export default () => {
           content="¿Estás comenzando tu negocio? Te presentamos una serie de consejos y trucos para que el proceso sea más fácil y exitoso."
         ></meta>
         <meta name="robots" content="index,follow"></meta>
+        <meta property="og:title" content="Precios sobre posicionamiento web" />
+        <meta
+          property="og:description"
+          content="¿Estás comenzando tu negocio? Te presentamos una serie de consejos y trucos para que el proceso sea más fácil y exitoso."
+        />
+        <meta
+          property="og:image"
+          content="https://res.cloudinary.com/dpzoehc6i/image/upload/v1581629540/RedesES_iwery3.jpg"
+        />
+        <meta
+          property="og:url"
+          content="https://equilibrio.studio/portafolio"
+        />
+        <meta name="twitter:card" content="summary_large_image" />
       </Helmet>
       <a
         href="https://api.whatsapp.com/send?phone=5214421319447&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20SEO.%20"
@@ -80,11 +94,11 @@ export default () => {
                   Adaptación de contenido orientado a SEO
                 </li>
                 <li className="is-size-5 is-size-6-mobile">
-                  Registro de página en Google Search Console
+                  Revisión de enlaces, optimización de imágenes, correción de texto
                 </li>
               </div>
               <p className="is-size-5 is-size-6-mobile has-text-weight-bold">
-                $2,500 + dominio (pago único)
+                $3,500 + dominio (pago único)
               </p>
             </div>
             <div className="column b2">
@@ -101,7 +115,7 @@ export default () => {
                 </li>
               </div>
               <p className="is-size-5 is-size-6-mobile has-text-weight-bold">
-                $3,000 mensuales
+                $3,500 mensuales
               </p>
             </div>
             <div className="column b3 has-text-white">
@@ -119,7 +133,7 @@ export default () => {
                 </li>
               </div>
               <p className="is-size-5 is-size-6-mobile has-text-weight-bold has-text-white">
-                $3,500 mensuales
+                $5,000 mensuales
               </p>
             </div>
           </div>

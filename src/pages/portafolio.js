@@ -150,6 +150,20 @@ export default () => {
           content="Revisa nuestros proyectos más recientes, donde podrás ver a detalle qué hacemos y cómo lo podemos aplicar a tu idea de negocio."
         ></meta>
         <meta name="robots" content="index,follow"></meta>
+        <meta property="og:title" content="Nuestro portafolio de proyectos" />
+        <meta
+          property="og:description"
+          content="¡Conoce un poco más de lo que hacemos en Equilibrio Studio!"
+        />
+        <meta
+          property="og:image"
+          content="https://res.cloudinary.com/dpzoehc6i/image/upload/v1581629540/RedesES_iwery3.jpg"
+        />
+        <meta
+          property="og:url"
+          content="https://equilibrio.studio/portafolio"
+        />
+        <meta name="twitter:card" content="summary_large_image" />
       </Helmet>
       <a
         href="https://api.whatsapp.com/send?phone=5214421319447&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20SEO.%20"

@@ -45,6 +45,20 @@ export default function Contact() {
           content="¿Tienes alguna duda sobre nuestros servicios de Marketing Digital? No dudes en contactarnos y con gusto te resolveremos todas tus inquietudes."
         ></meta>
         <meta name="robots" content="index,follow"></meta>
+        <meta property="og:title" content="Contacto | Equilibrio Studio" />
+        <meta
+          property="og:description"
+          content="¿Tienes alguna duda sobre nuestros servicios de Marketing Digital? No dudes en contactarnos y con gusto te resolveremos todas tus inquietudes."
+        />
+        <meta
+          property="og:image"
+          content="https://res.cloudinary.com/dpzoehc6i/image/upload/v1581629540/RedesES_iwery3.jpg"
+        />
+        <meta
+          property="og:url"
+          content="https://equilibrio.studio/contacto"
+        />
+        <meta name="twitter:card" content="summary_large_image" />
       </Helmet>
       <a
         href="https://api.whatsapp.com/send?phone=5214421319447&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20ustedes.%20"
@@ -56,7 +70,7 @@ export default function Contact() {
       </a>
       <Navbar />
       <section className="hero is-fullheight atlas-7">
-        <Navbar />
+        
         <div className="hero-body">
           <div className="container">
             <div className="columns has-text-centered">

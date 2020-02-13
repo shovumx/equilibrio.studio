@@ -43,13 +43,27 @@ export default () => {
     <div>
       <Helmet>
         <title>
-          Blog sobre emprendimiento en Querétaro | Equilibrio Studio
+          Blog sobre SEO en Querétaro | Equilibrio Studio
         </title>
         <meta
           name="description"
-          content="¿Estás comenzando tu negocio? Te presentamos una serie de consejos y trucos para que el proceso sea más fácil y exitoso."
+          content="¿Estás comenzando tu negocio? Te presentamos una serie de consejos y trucos sobre posicionamiento web para que el proceso sea más fácil y exitoso."
         ></meta>
         <meta name="robots" content="index,follow"></meta>
+        <meta property="og:title" content="Blog sobre emprendimiento en Querétaro" />
+        <meta
+          property="og:description"
+          content="¿Estás comenzando tu negocio? Te presentamos una serie de consejos y trucos sobre posicionamiento web para que el proceso sea más fácil y exitoso."
+        />
+        <meta
+          property="og:image"
+          content="https://res.cloudinary.com/dpzoehc6i/image/upload/v1581629540/RedesES_iwery3.jpg"
+        />
+        <meta
+          property="og:url"
+          content="https://equilibrio.studio/blog"
+        />
+        <meta name="twitter:card" content="summary_large_image" />
       </Helmet>
       <a
         href="https://api.whatsapp.com/send?phone=5214421319447&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20ustedes.%20"
