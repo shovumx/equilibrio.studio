@@ -6,6 +6,7 @@ import "../components/style.scss";
 import Helmet from "../components/helmet";
 import Footer from "../components/footer";
 import { Link } from "gatsby";
+import Video from "../components/video";
 import { FaWhatsapp } from "react-icons/fa";
 
 export default () => {
@@ -50,9 +51,9 @@ export default () => {
       >
         <FaWhatsapp size={45} className="my-float" />
       </a>
+      <Navbar />
       <section className="hero is-fullheight atlas-1" id="info">
-        <Navbar />
-
+      
         <div className="hero-body">
           <div className="container">
             <div className="columns has-text-centered">
@@ -118,9 +119,9 @@ export default () => {
       </section>
 
       <section className="hero is-fullheight atlas-3 ola" id="personalidad">
-        <div className="hero-head">
+        <div className="hero-head lorita">
           <div className="container">
-            <div className="columns">
+            <div className="columns ola">
               <div className="column has-text-centered">
                 <h2 className="is-size-2 is-size-5-mobile">
                   Dale personalidad a tu negocio
@@ -148,7 +149,7 @@ export default () => {
         className="hero is-fullheight atlas-4 ola"
         id="nuestros-servicios"
       >
-        <div className="hero-head">
+        <div className="hero-head lorita">
           <div className="container">
             <div className="columns">
               <div className="column"></div>
@@ -165,10 +166,10 @@ export default () => {
                   están buscando lo que tú les puedes ofrecer.
                 </p>
               </div>
-              <div className="column"></div>
+              <div className="column is-hidden-mobile"></div>
             </div>
             <div className="columns">
-              <div className="column"></div>
+              <div className="column is-hidden-mobile"></div>
               <div className="is-4 has-text-weight-bold is-centered ola-3">
                 <Link
                   to="/posicionamiento-web-queretaro"
@@ -187,10 +188,10 @@ export default () => {
         className="hero is-fullheight atlas-5"
         id="posicionamiento-web-SEO"
       >
-        <div className="hero-head">
+        <div className="hero-head lorita">
           <div className="container">
             <div className="columns">
-              <div className="column"></div>
+              <div className="column is-hidden-mobile"></div>
               <div className="column has-text-centered ola">
                 <h2 className="is-size-2 is-size-5-mobile">
                   ¿Qué otros servicios tenemos?{" "}
@@ -204,15 +205,24 @@ export default () => {
               </div>
             </div>
             <div className="columns">
-              <div className="column"></div>
-              <div className="column"></div>
-              <div className="column"></div>
+              <div className="column is-hidden-mobile"></div>
+              <div className="column is-hidden-mobile"></div>
+              <div className="column is-hidden-mobile"></div>
               <div className="is-4 has-text-weight-bold is-centered ola-3">
                 <Link to="/portafolio" className="button is-warning is-rounded">
                   LEER MÁS
                 </Link>
               </div>
+              <div className="column is-hidden-mobile"></div>
+            </div>
+            <div className="columns">
               <div className="column"></div>
+              <div className="column video-wrapper">
+                <Video
+                  videoSrcURL="https://www.youtube.com/embed/bqRP6iROpOk"
+                  videoTitle="Posicionamiento web SEO en Querétaro"
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -224,14 +234,21 @@ export default () => {
             <div className="columns has-text-centered">
               <div className="column ola">
                 <h2 className="is-size-2 is-size-5-mobile">
-                  Creación de contenido para posicionamiento web
+                  Paquetes y precios
                 </h2>
                 <p className="is-size-4 is-size-5-mobile">
                   Tenemos un gran equipo creativo que puede hacer contenido de
-                  alta calidad para que tu marca se distinga de la competencia
-                  con conocimiento de alto nivel y que tenga un buen
-                  posicionamiento en Google.
+                  alta calidad para que tu marca se distinga de la competencia.
+                  Contamos con diferentes paquetes a la medida de tu negocio
                 </p>
+                <div className="is-4 has-text-weight-bold is-centered ola-3">
+                  <Link
+                    to="/paquetes-y-tarifas"
+                    className="button is-warning is-rounded"
+                  >
+                    LEER MÁS
+                  </Link>
+                </div>
               </div>
               <div className="column"></div>
             </div>

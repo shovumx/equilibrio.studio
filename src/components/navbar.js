@@ -4,7 +4,7 @@ import "./style.scss";
 import "./columns.scss";
 
 const Navbar = () => (
-  <div className="">
+  <div className="hero-head sticky">
     <div className="columns is-hidden-mobile is-marginless heading has-text-weight-bold">
       <div className="column left">
         <Link to="/" className="navbar-item has-text-success">
@@ -20,6 +20,9 @@ const Navbar = () => (
           className="navbar-item has-text-success"
         >
           Posicionamiento Web
+        </Link>
+        <Link to="/blog" className="navbar-item has-text-warning">
+          Blog
         </Link>
       </div>
       <div className="column right">
@@ -39,7 +42,7 @@ const Navbar = () => (
         <Link to="/portafolio" className="navbar-item has-text-warning">
           Portafolio
         </Link>
-		        <Link to="/blog" className="navbar-item has-text-warning">
+        <Link to="/blog" className="navbar-item has-text-warning">
           Blog
         </Link>
         <Link to="/contacto" className="navbar-item has-text-warning">
@@ -47,7 +50,6 @@ const Navbar = () => (
         </Link>
       </div>
     </div>
-    
   </div>
 );
 

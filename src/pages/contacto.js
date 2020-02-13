@@ -54,6 +54,7 @@ export default function Contact() {
       >
         <FaWhatsapp size={45} className="my-float" />
       </a>
+      <Navbar />
       <section className="hero is-fullheight atlas-7">
         <Navbar />
         <div className="hero-body">

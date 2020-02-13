@@ -101,16 +101,7 @@ background: linear-gradient(360deg, rgba(59,118,122,1) 0%, rgba(127,164,166,1) 1
     
   }
 
-  .magical {
-    background-image: linear-gradient(120deg, #70e1f5 0%, #ffd194 51%, #70e1f5 100%);
-    background-repeat: no-repeat;
-    background-size: 100% 0.2em;
-    background-position: 0 88%;
-    transition: background-size 0.25s ease-in;
-    &:hover {
-      background-size: 100% 88%;
-    }
-    }
+
 
     .bg1 {
       background-color: #34494c;

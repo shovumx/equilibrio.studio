@@ -48,12 +48,25 @@ export default () => {
           }
         }
       }
+      imageFour: file(
+        relativePath: { eq: "images/posicionamiento_seo_queretaro.png" }
+      ) {
+        childImageSharp {
+          fluid(maxWidth: 1200) {
+            aspectRatio
+            sizes
+            base64
+            src
+            srcSet
+          }
+        }
+      }
     }
   `);
   return (
     <div>
       <Helmet>
-        <title>Posicionamiento web SEO en Querétaro | Equilibrio Studio</title>
+        <title>Posicionamiento SEO en Querétaro | Equilibrio Studio</title>
         <meta
           name="description"
           content="En nuestra Agencia somos especialistas en posicionar tu página mediante SEO o SEM. ¡No dudes en contactarnos para maximizar tus ganancias!"
@@ -61,35 +74,32 @@ export default () => {
         <meta name="robots" content="index,follow"></meta>
       </Helmet>
       <a
-        href="https://api.whatsapp.com/send?phone=5214421319447&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20ustedes.%20"
+        href="https://api.whatsapp.com/send?phone=5214421319447&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20SEO.%20"
         className="float"
         target="_blank"
         rel="noopener noreferrer"
       >
         <FaWhatsapp size={45} className="my-float" />
       </a>
-      <section className="oras">
       <Navbar />
-        <div className="columns">
-          <div className="column"></div>
-          <div className="column is-three-quarters has-text-centered">
+      <section className="hero is-medium is-light is-bold">
+        
+        <div className="hero-body">
+          <div className="container">
             <h1 className="is-size-2 is-size-5-mobile">
               Posicionamiento web: SEO y SEM
             </h1>
             <p className="is-size-4 is-size-5-mobile">
-              <i>¿Cuál es la diferencia entre el SEO y el SEM? No tener clara la
+              ¿Cuál es la diferencia entre el SEO y el SEM? No tener clara la
               respuesta a esa pregunta sobre posicionamiento web en Google puede
               perjudicar las ventas de tu negocio. En nuestra Agencia de
               Marketing Digital podemos ayudarte a implementar una estrategia
-              para potenciar tus ventas por internet.</i>
+              para potenciar tus ventas por internet.
             </p>
-            <Img
-                  fluid={data.imageOne.childImageSharp.fluid}
-                  alt="Posicionamiento Web SEO en Querétaro"
-                />
           </div>
-          <div className="column"></div>
         </div>
+      </section>
+      <section className="oras">
         <div className="columns">
           <div className="column"></div>
           <div className="column is-three-quarters">
@@ -225,10 +235,32 @@ export default () => {
               estrategia a seguir para maximizar tus ventas.
             </p>
             <p className="is-size-4 is-size-5-mobile">
-              En Equilibrio Studio somos una <span className="magical"><a href="https://equilibrio.studio" aria-label="Posicionamiento Web en Querétaro">Agencia de Marketing Digital</a></span> especializada en el posicionamiento web, ya sea de manera orgánica (SEO) o pagada.{" "}
+              En Equilibrio Studio somos una{" "}
+              <span className="magical">
+                <a
+                  href="https://equilibrio.studio"
+                  aria-label="Posicionamiento Web en Querétaro"
+                >
+                  Agencia de Posicionamiento Web
+                </a>
+              </span>{" "}
+              especializada en el posicionamiento web, ya sea de manera orgánica
+              (SEO) o pagada.{" "}
             </p>
             <p className="is-size-4 is-size-5-mobile">
-              Si buscas entrar en la conversación digital, nosotros estamos ahí para ti desde el <span className="magical"><a href="https://equilibrio.studio" aria-label="Posicionamiento SEO en Querétaro">diseño web</a></span>, hasta la creación de contenido para que tu empresa resalte entre la competencia con elementos que hagan tu marca distinta e innovadora.{" "}
+              Si buscas entrar en la conversación digital, nosotros estamos ahí
+              para ti desde el{" "}
+              <span className="magical">
+                <a
+                  href="https://equilibrio.studio"
+                  aria-label="Posicionamiento SEO en Querétaro"
+                >
+                  diseño web
+                </a>
+              </span>
+              , hasta la creación de contenido para que tu empresa resalte entre
+              la competencia con elementos que hagan tu marca distinta e
+              innovadora.{" "}
             </p>
           </div>
           <div className="column"></div>

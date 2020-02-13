@@ -12,7 +12,7 @@ export default () => {
   const data = useStaticQuery(graphql`
     query {
       imageOne: file(
-        relativePath: { eq: "images/agencia_marketing_digital.png" }
+        relativePath: { eq: "images/posicionamiento_seo_queretaro.png" }
       ) {
         childImageSharp {
           fluid(maxWidth: 1200) {
@@ -59,8 +59,9 @@ export default () => {
       >
         <FaWhatsapp size={45} className="my-float" />
       </a>
+      <Navbar />
       <section className="hero is-medium is-light is-bold">
-          <Navbar />
+          
         <div className="hero-body">
           <div className="container">
             <h1 className="is-size-2 is-size-5-mobile">Visita nuestro blog</h1>
@@ -142,6 +143,17 @@ export default () => {
             </div>
           </div>
         </div>
+        <div className="columns">
+            <div className="column"></div>
+            <div className="column is-3">
+              <Img
+                fluid={data.imageOne.childImageSharp.fluid}
+                alt="Posicionamiento Web SEO en Querétaro"
+              />
+            </div>
+            <div className="column"></div>
+          </div>
+ 
       </section>
       <Footer />
     </div>

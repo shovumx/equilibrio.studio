@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: "Agencia de marketing digital en Querétaro",
+    title: "Posicionamiento web en Querétaro",
     author: "Equilibrio",
     description:
-      "Somos una agencia de marketing digital enfocada en pequeñas y medianas empresas. Nuestras fortalezas: SEO, social media, diseño web y gráfico.",
+      "Somos una agencia de posicionamiento web SEO enfocada en pequeñas y medianas empresas. Nuestras otras fortalezas: social media, diseño web y gráfico.",
     siteUrl: "https://equilibrio.studio",
     facebook: "https://facebook.com/equilibrio.studio.mx"
   },
@@ -31,13 +31,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: "Agencia de marketing digital en Querétaro | Equilibrio Studio",
-        short_name: "Agencia de marketing digital en Querétaro",
+        name: "Posicionamiento web en Querétaro | Equilibrio Studio",
+        short_name: "Agencia de posicionamiento web en Querétaro",
         start_url: "/",
         background_color: "#2980b9",
         theme_color: "#2980b9",
         display: "standalone",
-        icon: "src/images/equilibrio-studio.png",
+        icon: "src/images/Fb.jpg",
         orientation: "portrait"
       }
     },
