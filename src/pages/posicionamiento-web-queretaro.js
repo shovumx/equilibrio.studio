@@ -66,7 +66,7 @@ export default () => {
   return (
     <div>
       <Helmet>
-        <title>Posicionamiento SEO en Querétaro | Equilibrio Studio</title>
+        <title>Posicionamiento web en Querétaro | Equilibrio Studio</title>
         <meta
           name="description"
           content="En nuestra Agencia somos especialistas en posicionar tu página mediante SEO o SEM. ¡No dudes en contactarnos para maximizar tus ganancias!"
