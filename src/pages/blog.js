@@ -42,15 +42,16 @@ export default () => {
   return (
     <div>
       <Helmet>
-        <title>
-          Blog sobre SEO en Querétaro | Equilibrio Studio
-        </title>
+        <title>Blog sobre SEO en Querétaro | Equilibrio Studio</title>
         <meta
           name="description"
           content="¿Estás comenzando tu negocio? Te presentamos una serie de consejos y trucos sobre posicionamiento web para que el proceso sea más fácil y exitoso."
         ></meta>
         <meta name="robots" content="index,follow"></meta>
-        <meta property="og:title" content="Blog sobre emprendimiento en Querétaro" />
+        <meta
+          property="og:title"
+          content="Blog sobre emprendimiento en Querétaro"
+        />
         <meta
           property="og:description"
           content="¿Estás comenzando tu negocio? Te presentamos una serie de consejos y trucos sobre posicionamiento web para que el proceso sea más fácil y exitoso."
@@ -59,10 +60,7 @@ export default () => {
           property="og:image"
           content="https://res.cloudinary.com/dpzoehc6i/image/upload/v1581629540/RedesES_iwery3.jpg"
         />
-        <meta
-          property="og:url"
-          content="https://equilibrio.studio/blog"
-        />
+        <meta property="og:url" content="https://equilibrio.studio/blog" />
         <meta name="twitter:card" content="summary_large_image" />
       </Helmet>
       <a
@@ -75,11 +73,12 @@ export default () => {
       </a>
       <Navbar />
       <section className="hero is-medium is-light is-bold">
-          
         <div className="hero-body">
           <div className="container">
             <h1 className="is-size-2 is-size-5-mobile">Visita nuestro blog</h1>
-            <p className="is-size-3 is-size-5-mobile">En esta página podrás encontrar consejos de emprendimiento</p>
+            <p className="is-size-3 is-size-5-mobile">
+              En esta página podrás encontrar consejos de emprendimiento
+            </p>
           </div>
         </div>
       </section>
@@ -88,28 +87,34 @@ export default () => {
           <div className="columns has-text-centered">
             <div className="column"></div>
             <div className="column is-three-quarters">
-              <h2 className="is-size-2 is-size-5-mobile">Lee todas nuestras entradas:</h2>
+              <h2 className="is-size-2 is-size-5-mobile">
+                Lee todas nuestras entradas:
+              </h2>
             </div>
             <div className="column"></div>
           </div>
           <div className="columns has-text-centered">
             <div className="column">
               <div className="notification is-info">
-                <h2 className="is-size-3 is-size-6-mobile">Este es un título prueba</h2>
+                <h2 className="is-size-3 is-size-6-mobile">
+                  SEO y Diseño, su importancia
+                </h2>
                 <p className="is-size-4 is-size-6-mobile">
-                  Este es un texto prueba. Este es un texto prueba. Este es un
-                  texto prueba. Este es un texto prueba. Este es un texto
-                  prueba.
+                  Una buena interfaz de diseño no solo es útil en el plano
+                  estético, también podría ayudarte a posicionar tu página web
+                  de mejor forma en Google.
                 </p>
                 <Link
-                  to="/#informacion"
+                  to="/seo-y-diseño-importancia-posicionamiento-web"
                   className="button is-danger is-inverted is-rounded ola-3"
                 >
                   LEER MÁS
                 </Link>
               </div>
               <div className="notification is-danger">
-                <h2 className="is-size-3 is-size-6-mobile">Este es un título prueba</h2>
+                <h2 className="is-size-3 is-size-6-mobile">
+                  Este es un título prueba
+                </h2>
                 <p className="is-size-4 is-size-6-mobile">
                   Este es un texto prueba. Este es un texto prueba. Este es un
                   texto prueba. Este es un texto prueba. Este es un texto
@@ -122,11 +127,12 @@ export default () => {
                   LEER MÁS
                 </Link>
               </div>
-
             </div>
             <div className="column">
-            <div className="notification is-info">
-                <h2 className="is-size-3 is-size-6-mobile">Este es un título prueba</h2>
+              <div className="notification is-info">
+                <h2 className="is-size-3 is-size-6-mobile">
+                  Este es un título prueba
+                </h2>
                 <p className="is-size-4 is-size-6-mobile">
                   Este es un texto prueba. Este es un texto prueba. Este es un
                   texto prueba. Este es un texto prueba. Este es un texto
@@ -140,7 +146,9 @@ export default () => {
                 </Link>
               </div>
               <div className="notification is-danger">
-                <h2 className="is-size-3 is-size-6-mobile">Este es un título prueba</h2>
+                <h2 className="is-size-3 is-size-6-mobile">
+                  Este es un título prueba
+                </h2>
                 <p className="is-size-4 is-size-6-mobile">
                   Este es un texto prueba. Este es un texto prueba. Este es un
                   texto prueba. Este es un texto prueba. Este es un texto
@@ -153,21 +161,19 @@ export default () => {
                   LEER MÁS
                 </Link>
               </div>
-
             </div>
           </div>
         </div>
         <div className="columns">
-            <div className="column"></div>
-            <div className="column is-3">
-              <Img
-                fluid={data.imageOne.childImageSharp.fluid}
-                alt="Posicionamiento Web SEO en Querétaro"
-              />
-            </div>
-            <div className="column"></div>
+          <div className="column"></div>
+          <div className="column is-3">
+            <Img
+              fluid={data.imageOne.childImageSharp.fluid}
+              alt="Posicionamiento Web SEO en Querétaro"
+            />
           </div>
- 
+          <div className="column"></div>
+        </div>
       </section>
       <Footer />
     </div>

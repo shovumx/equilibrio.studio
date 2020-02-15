@@ -72,6 +72,20 @@ export default () => {
           content="En nuestra Agencia somos especialistas en posicionar tu página mediante SEO o SEM. ¡No dudes en contactarnos para maximizar tus ganancias!"
         ></meta>
         <meta name="robots" content="index,follow"></meta>
+        <meta property="og:title" content="Posicionamiento SEO en Querétaro" />
+        <meta
+          property="og:description"
+          content="En nuestra Agencia somos especialistas en posicionar tu página mediante SEO o SEM. ¡No dudes en contactarnos para maximizar tus ganancias!"
+        />
+        <meta
+          property="og:image"
+          content="https://res.cloudinary.com/dpzoehc6i/image/upload/v1581629540/RedesES_iwery3.jpg"
+        />
+        <meta
+          property="og:url"
+          content="https://equilibrio.studio/posicionamiento-web-queretaro"
+        />
+        <meta name="twitter:card" content="summary_large_image" />
       </Helmet>
       <a
         href="https://api.whatsapp.com/send?phone=5214421319447&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20SEO.%20"
@@ -109,7 +123,7 @@ export default () => {
               generar ganancias.
             </p>
             <p className="is-size-4 is-size-5-mobile">
-              ¿Tu negocio aprovcha esto? ¿Tu página web es visible para todo
+              ¿Tu negocio aprovecha esto? ¿Tu página web es visible para todo
               este mercado que se mueve en Google?
             </p>
             <p className="is-size-4 is-size-5-mobile">
