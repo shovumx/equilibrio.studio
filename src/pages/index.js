@@ -165,18 +165,19 @@ export default () => {
                   web en Google para que estés a la vista de muchas personas que
                   están buscando lo que tú les puedes ofrecer.
                 </p>
-              </div>
-              <div className="column is-hidden-mobile"></div>
-            </div>
-            <div className="columns">
-              <div className="column is-hidden-mobile"></div>
-              <div className="is-4 has-text-weight-bold is-centered ola-3">
                 <Link
                   to="/posicionamiento-web-queretaro"
                   className="button is-warning is-rounded"
                 >
                   LEER MÁS
                 </Link>
+              </div>
+              <div className="column is-hidden-mobile"></div>
+            </div>
+            <div className="columns">
+              <div className="column is-hidden-mobile"></div>
+              <div className="is-4 has-text-weight-bold is-centered ola-3">
+
               </div>
               <div className="column"></div>
             </div>
