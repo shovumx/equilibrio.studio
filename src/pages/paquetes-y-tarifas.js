@@ -98,7 +98,7 @@ export default () => {
                 </li>
               </div>
               <p className="is-size-5 is-size-6-mobile has-text-weight-bold">
-                $3,500 + dominio (pago único)
+                Desde $3,500 + dominio (pago único)
               </p>
             </div>
             <div className="column b2">

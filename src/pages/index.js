@@ -52,7 +52,7 @@ export default () => {
         <FaWhatsapp size={45} className="my-float" />
       </a>
       <Navbar />
-      <section className="hero is-fullheight atlas-1" id="info">
+      <section className="hero is-fullheight-with-navbar atlas-1" id="info">
       
         <div className="hero-body">
           <div className="container">

@@ -3,6 +3,7 @@ import Helmet from "react-helmet";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 import Img from "gatsby-image";
+import Video from "../components/video";
 import { useStaticQuery, graphql } from "gatsby";
 import "../components/style.scss";
 import "../components/columns.scss";
@@ -74,7 +75,7 @@ export default () => {
         />
         <meta
           property="og:url"
-          content="https://equilibrio.studio/portafolio"
+          content="https://equilibrio.studio/seo-y-diseño-importancia-posicionamiento-web"
         />
         <meta name="twitter:card" content="summary_large_image" />
       </Helmet>
@@ -212,6 +213,12 @@ export default () => {
               </a>{" "}
               también lo toma en cuenta para el posicionamiento web.{" "}
             </p>
+            <div className="video-wrapper">
+              <Video
+                videoSrcURL="https://www.youtube.com/embed/acr3i9UCCZ0"
+                videoTitle="Importancia de la UX en el SEO"
+              />
+            </div>
           </div>
           <div className="column"></div>
         </div>

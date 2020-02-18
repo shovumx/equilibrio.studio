@@ -113,15 +113,15 @@ export default () => {
               </div>
               <div className="notification is-danger">
                 <h2 className="is-size-3 is-size-6-mobile">
-                  Este es un título prueba
+                  ¡No olvides el diseño web móvil!
                 </h2>
                 <p className="is-size-4 is-size-6-mobile">
-                  Este es un texto prueba. Este es un texto prueba. Este es un
-                  texto prueba. Este es un texto prueba. Este es un texto
-                  prueba.
+                  ¿Sabías que la mayoría de la gente navega desde su celular? Si
+                  tu página no está adaptada para teléfonos móviles, Google
+                  podría estar castigándote.
                 </p>
                 <Link
-                  to="/#informacion"
+                  to="/importancia-diseno-movil-seo"
                   className="button is-danger is-inverted is-rounded ola-3"
                 >
                   LEER MÁS

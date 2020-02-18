@@ -3,6 +3,7 @@ import Helmet from "react-helmet";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 import Img from "gatsby-image";
+import Video from "../components/video";
 import { useStaticQuery, graphql } from "gatsby";
 import "../components/style.scss";
 import "../components/columns.scss";
@@ -203,6 +204,12 @@ export default () => {
               Después de todo, ¿a quién no le gustaría tener tanta visibilidad
               sin pagar un solo peso?
             </p>
+            <div className="video-wrapper">
+              <Video
+                videoSrcURL="https://www.youtube.com/embed/bqRP6iROpOk"
+                videoTitle="Posicionamiento web en Querétaro"
+              />
+            </div>
             <p className="is-size-4 is-size-5-mobile">
               La forma en la que Google clasifica sus primeros resultados no es
               conocida. Es, de hecho, un secreto que mu pocos empleados conocen.
