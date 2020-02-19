@@ -302,12 +302,19 @@ export default () => {
                 >
                   LUPPO
                 </a>
-                &nbsp;y&nbsp;
+                ,&nbsp;
                 <a
                   href="https://battersea.mx"
                   aria-label="Sistemas de seguridad para empresas en Querétaro"
                 >
                   BATTERSEA
+                </a>
+                &nbsp;y&nbsp;
+                <a
+                  href="https://calentadores-solares.mx"
+                  aria-label="Calentadores solares en Querétaro"
+                >
+                  CALENTADORES SOLARES 
                 </a>
                 &nbsp;se hizo un trabajo para identificar las palabras claves de
                 cada negocio y poderlos llevar a la primera página de Google.
