@@ -101,7 +101,7 @@ export default () => {
         <div className="hero-body">
           <div className="container">
             <h1 className="is-size-2 is-size-5-mobile">
-              Posicionamiento web: SEO y SEM
+              Posicionamiento web en Querétaro
             </h1>
             <p className="is-size-4 is-size-5-mobile">
               ¿Cuál es la diferencia entre el SEO y el SEM? No tener clara la
@@ -120,12 +120,12 @@ export default () => {
             <p className="is-size-4 is-size-5-mobile">
               Todos los días, millones y millones de personas entran a Google a
               buscar cosas. Todos los días, miles y miles de empresas y negocios
-              buscan la forma de captar todo ese volumen de búsquedas para poder
-              generar ganancias.
+              en Querétaro buscan la forma de captar todo ese volumen de
+              búsquedas para poder generar ganancias.
             </p>
             <p className="is-size-4 is-size-5-mobile">
-              ¿Tu negocio aprovecha esto? ¿Tu página web es visible para todo
-              este mercado que se mueve en Google?
+              ¿Tu negocio aprovecha esto? ¿Tu página web es visible para todo el
+              mercado de Querétaro que se mueve en Google?
             </p>
             <p className="is-size-4 is-size-5-mobile">
               Hay una estadística demoledora: el 93% de la gente que utiliza
@@ -135,10 +135,10 @@ export default () => {
               y tus ganancias están en las sombras.{" "}
             </p>
             <p className="is-size-4 is-size-5-mobile">
-              Muchos negocios no lo saben (o no lo quieren saber por aferrarse a
-              prácticas de marketing más tradicionales), pero el posicionamiento
-              web es o debería ser una de las mejores fuentes de ingresos para
-              sus negocios.{" "}
+              Muchos negocios de Querétaro no lo saben (o no lo quieren saber
+              por aferrarse a prácticas de marketing más tradicionales), pero el
+              posicionamiento web es o debería ser una de las mejores fuentes de
+              ingresos para sus negocios.{" "}
             </p>
             <p className="is-size-4 is-size-5-mobile">
               Entonces, ¿cómo hacerle para que tu página web llegue a la primera
@@ -188,7 +188,8 @@ export default () => {
               >
                 <span className="magical">(Posicionamiento SEO)</span>
               </a>{" "}
-              tu página web en la primera página de Google.{" "}
+              tu página web en la primera página de Google de resultados en
+              Querétaro.{" "}
             </p>
             <p className="is-size-4 is-size-5-mobile">
               Es gratis, no tienes que estar pensando anuncios y naturalmente
@@ -232,7 +233,7 @@ export default () => {
               página de búsquedas de Google.
             </p>
             <h2 className="is-size-2 is-size-5-mobile">
-              Posicionamiento SEM: significado y ventajas
+              Posicionamiento SEM: significado y ventajas en Querétaro
             </h2>
             <p className="is-size-4 is-size-5-mobile">
               El posicionamiento SEM (pagar anuncios en los buscadores) es ideal
@@ -276,8 +277,8 @@ export default () => {
                   Agencia de Posicionamiento Web
                 </a>
               </span>{" "}
-              especializada en el posicionamiento web, ya sea de manera orgánica
-              (SEO) o pagada.{" "}
+              en Querétaro especializada en el posicionamiento web, ya sea de
+              manera orgánica (SEO) o pagada.{" "}
             </p>
             <p className="is-size-4 is-size-5-mobile">
               Si buscas entrar en la conversación digital, nosotros estamos ahí
