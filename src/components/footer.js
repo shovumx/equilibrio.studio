@@ -19,10 +19,15 @@ const Footer = () => (
       <footer className="footer center">
         <div className="content has-text-centered">
           <p className="is-size-7">
-            Posicionamiento web SEO en Querétaro | Equilibrio Studio. Todos
-            los derechos reservados. Desde 2019.
+            Posicionamiento web en Querétaro | Equilibrio Studio. <br />
+            Av. Euripides, El Refugio, 76146 Santiago de Querétaro, Qro.
+            <br />
+            Tel. 442 131 9447
+            <br />
+            <a href="https://g.page/EquilibrioStudioMX?gm">Google Maps</a>
+            <br />
+            Todos los derechos reservados. Desde 2019.
           </p>
-
           <article className="media center">
             <span className="icon">
               <a href={data.site.siteMetadata.facebook}>
